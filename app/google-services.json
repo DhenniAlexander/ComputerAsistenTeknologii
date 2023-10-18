@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "290359798019",
+    "project_id": "loginfirebase-cb488",
+    "storage_bucket": "loginfirebase-cb488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290359798019:android:d0ec440c2ac732b19ee136",
+        "android_client_info": {
+          "package_name": "com.example.computerasistenteknologi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-84clAj41_rNYDFHSShRL7Oa_fbLHJR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

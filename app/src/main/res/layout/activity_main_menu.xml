@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bg_mainmenu2"/>
+
+    <TextView
+        android:layout_below="@id/quizIcon"
+        android:id="@+id/chooseTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#99ffffff"
+        android:text="Choose The Topic"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_below="@id/chooseTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="17dp"
+            android:layout_height="wrap_content"></RelativeLayout>
+
+        <ImageButton
+            android:onClick="btn_kecermatan"
+            android:id="@+id/btn_kecermatan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_kecermatan2"/>
+
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"></RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btn_wawasankebangsaan"
+            android:onClick="btn_wawasankebangsaan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_wawasan2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/btn_kecerdasan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="btn_kecerdasan"
+            android:background="@drawable/bg_kecerdasan1"/>
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"></RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btn_psikotes"
+            android:onClick="btn_psikotes"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_psikotes1"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
